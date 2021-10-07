@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .d-flex{
+     margin-right: 20px;
+     
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #edf8f5;
+  }
+  
+  p {
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  .trim-3-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .add_newbtnmodile_only {
+    position: fixed;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    padding: 15px 10px;
+    background: white;
+    z-index: 3;
+  }
+  .place_holder_image {
+    height: 200px;
+    width: 100%;
+  }
+  .task__card {
+    cursor: pointer;
+  }
+  
+  .task__card:hover {
+    border: 1px solid #ec455b;
+  }
+  
+  .task_card:hover .taskcard_title {
+    color: #ec456f;
+  }
+  
+  .task_card:hover .taskcard_header {
+    border-bottom: 1px solid #ec456f;
+  }
+  .task_card:hover .taskcard_footer {
+    border-top: 1px solid #ec456f21;
+  }
+  
+  @media (min-width: 768px) {
+    .add_newbtnmodile_only {
+      display: none;
+    }
+  }
